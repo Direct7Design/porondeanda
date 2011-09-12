@@ -1,0 +1,81 @@
+html {
+	background-color: #f9f9f9;
+}
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold);
+
+body {
+	color: #36393d;
+	font-family: 'PT Sans',Helvetica,Arial,Verdana,sans-serif;
+	font-size: 0.8em;
+	min-width: 650px;
+	margin: 0 auto;
+}
+
+#corpo {
+	margin-top: 20px;
+	padding: 0px 170px 0px 170px;
+	text-align: center;
+}
+
+h1 {
+	color: #555;
+	font-size: 35px;
+}
+
+h2 {
+	color: #555;
+	font-size: 25px;
+}
+
+input {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #FFF;
+	border-radius: 5px;
+	border:1px solid #CCC;
+	font-size: 20px;
+	color: #AAA;
+	padding: 7px;
+	width: 8.1em;
+}
+
+button {
+	background-color:transparent;
+	font-family:'PT Sans',Helvetica,Arial,Verdana,sans-serif;
+	border: 0;
+	font-size: 20px;
+	color: #369;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#erro {
+	padding-top: 20px;
+	font-size: 20px;
+	color: #555;
+}
+
+hr {
+	color: inherit;
+	height: 0;
+	border: 1px solid #bbb;
+	border-style: none none solid;
+}
+
+form {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+table tr:nth-child(odd) {
+	background: #EEE;
+}
+
+table tr:nth-child(1) { 
+	background: #DDD;
+}
+
+table td {
+	padding: 7px;
+}
